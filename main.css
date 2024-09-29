@@ -16,6 +16,7 @@ body, html {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav__upper {
@@ -32,6 +33,14 @@ body, html {
     color: #fff;
     margin-left: 20px;
     text-decoration: none;
+}
+
+.upper__right a, .external_links a, .grid a, .footer__right a {
+    transition: background-color 0.3s ease;
+}
+
+.upper__right a:hover, .footer__right a:hover {
+    background-color: #555;
 }
 
 .nav__lower {
@@ -125,6 +134,7 @@ p {
 .grid a:hover {
     background-color: #0073e6;
     color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 115, 230, 0.2);
 }
 
 .footer {
